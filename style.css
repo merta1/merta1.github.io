@@ -3,3 +3,14 @@ p {
   font-size: 20px;
   text-align: center;
 }
+
+.hidden-links {
+  text-decoration: none;
+  color: #536382;
+}
+
+#first-paragraph {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: blue;
+}
