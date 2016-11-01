@@ -1,3 +1,7 @@
-input:checked + label{
-  background: yellow;
-}
+:required {
+   border: 5px solid green;
+ }
+
+ :optional {
+   border: 5px solid blue;
+ }
