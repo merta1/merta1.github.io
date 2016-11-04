@@ -1,25 +1,15 @@
-a {
-  text-decoration-line: underline;
-  text-decoration-style: dashed;
-  text-decoration-color: orange;
+p::selection {
+  background: indianred;
+  color: white;
 }
 
-.sample {
-  text-decoration: underline overline dotted green;
+p::-moz-selection {
+  background: indianred;
+  color: white;
 }
 
-.through {
-  text-decoration: line-through;
-  color: red;
-}
-
-.wavy {
-  text-decoration: underline wavy violet;
-}
-
-body {
-  text-align: center;
-  font-family: courier new;
-  font-weight: bold;
-  font-size: 20pt;
+body{
+  font-family: cormorant infant;
+  width: 80%;
+  margin: auto;
 }
