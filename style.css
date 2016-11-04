@@ -1,16 +1,25 @@
-p {
-  color: green;
-  font-size: 20px;
+a {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: orange;
+}
+
+.sample {
+  text-decoration: underline overline dotted green;
+}
+
+.through {
+  text-decoration: line-through;
+  color: red;
+}
+
+.wavy {
+  text-decoration: underline wavy violet;
+}
+
+body {
   text-align: center;
-}
-
-.hidden-links {
-  text-decoration: none;
-  color: #536382;
-}
-
-#first-paragraph {
-  font-family: sans-serif;
-  font-size: 18px;
-  color: blue;
+  font-family: courier new;
+  font-weight: bold;
+  font-size: 20pt;
 }
